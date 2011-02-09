@@ -1,0 +1,9 @@
+-define(MSG_STORE, riak_durable_msg_store).
+-define(META, <<"X-Riak-Meta">>).
+-define(GUID, <<"X-Riak-Meta-Guid">>).
+-define(CLASS_ID, <<"X-Riak-Meta-Classid">>).
+-define(VHOST, <<"X-Riak-Meta-Vhost">>).
+-define(QUEUE, <<"X-Riak-Meta-Queue">>).
+-define(EXCHANGE, <<"X-Riak-Meta-Exchange">>).
+-define(ROUTING_KEY, <<"X-Riak-Meta-RoutingKey">>).
+-define(SEQ_ID, <<"X-Riak-Meta-SeqId">>).

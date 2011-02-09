@@ -1,0 +1,12 @@
+{application, rabbit_riak_queue,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rabbit_riak_queue_app, []}},
+  {env, []}
+ ]}.
